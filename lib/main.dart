@@ -55,6 +55,16 @@ class FirstScreen extends StatelessWidget{
           IconButton(icon: Icon(Icons.share), onPressed: () {  },),
           IconButton(icon: Icon(Icons.thumb_up), onPressed: () {  },),
           IconButton(icon: Icon(Icons.thumb_down), onPressed: () {  },),
+
+          Column(
+            children: <Widget>[
+              Text(
+                'Sebuah Judul',
+                style: TextStyle(fontSize: 32, fontWeight: FontWeight.bold),
+              ),
+              Text('Lorem ipsum dolor sit amet'),
+            ],
+          )
         ],
       ),
     );
